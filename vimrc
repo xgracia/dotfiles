@@ -14,3 +14,5 @@ au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=8 expandtab shiftwidth=4 soft
 set number " add line numbers
 
 set ruler " show row and col ruler info
+
+set cm=blowfish " encryption mode
