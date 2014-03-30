@@ -249,3 +249,5 @@ elif ! agent_has_keys; then
 fi
 
 unset env
+
+export PS1="\[\e[00;37m\]\n\[\e[0m\]\[\e[00;32m\]\u\[\e[0m\]\[\e[00;37m\]@\[\e[0m\]\[\e[00;34m\]\h\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]\w\[\e[0m\]\[\e[00;37m\]\n\\$ \[\e[0m\]"
