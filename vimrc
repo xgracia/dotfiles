@@ -4,10 +4,11 @@ set nocompatible
 
 set backspace=indent,eol,start " modern backspace behavior
 
+execute pathogen#infect()
 syntax on " syntax highlighting
 
 filetype plugin indent on " file type detection indenting
-au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=8 expandtab shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile *.py,*.coffee,*.js set tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 :colo murphy " my color scheme
 
